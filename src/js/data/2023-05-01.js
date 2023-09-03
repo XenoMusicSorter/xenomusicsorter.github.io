@@ -3,18 +3,35 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Character Role",
+    name: "Filter by Song Role",
     key: "role",
-    tooltip: "Check this to restrict to certain character roles.",
-    checked: true,
+    tooltip: "Check this to restrict to certain song roles.",
+    checked: false,
     sub: [
-      { name: "Protagonist", key: "protag" },
-      { name: "Supporting Roles", key: "npc" },
-      { name: "Major Antagonist", key: "majant" },
-      { name: "Minor Antagonist", key: "minant" },
-      { name: "Nopon", key: "nopon" },
-      { name: "BLADE (XCX)", key: "xblade" },
-      { name: "Blade (XC2)", key: "2blade" },
+      { name: "Title Themes", key: "protag" },
+      { name: "Vocal Tracks", key: "npc", tooltip: "This does NOT include choir songs!" },
+      { name: "Field Themes", key: "majant" },
+      { name: "Day Themes", key: "minant" },
+      { name: "Night Themes", key: "nopon" },
+      { name: "Fight Themes", key: "xblade" },
+      { name: "Cutscene Themes", key: "2blade" },
+      { name: "Hero", key: "hero" },
+      { name: "Consul", key: "consul" },
+    ]
+  },
+  {
+    name: "Filter by Composers",
+    key: "composers",
+    tooltip: "Check this to restrict to certain composers.",
+    checked: false,
+    sub: [
+      { name: "Title Themes", key: "protag" },
+      { name: "Vocal Tracks", key: "npc" },
+      { name: "Field Themes", key: "majant" },
+      { name: "Day Themes", key: "minant" },
+      { name: "Night Themes", key: "nopon" },
+      { name: "Fight Themes", key: "xblade" },
+      { name: "Cutscene Themes", key: "2blade" },
       { name: "Hero", key: "hero" },
       { name: "Consul", key: "consul" },
     ]
@@ -23,7 +40,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Series",
     key: "series",
     tooltip: "Check this to restrict to series.",
-    checked: true,
+    checked: false,
     sub: [
       { name: "Xenogears", key: "XG" },
       { name: "Xenosaga", key: "XS" },
@@ -49,6 +66,514 @@ dataSet[dataSetVersion].options = [
     checked: false
   }
 ];
+
+dataSet[dataSetVersion].songData = [
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "XG-Fei.png",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Life's Fading Flame - Holding These Thoughts",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains",
+    img: "imgs/ep.jpg",
+    music: "gpd.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  {
+    name: "Gaur Plains Night",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  },
+  
+  {
+    name: "no5=KAKU-WEST*→▲★★KAI",
+    img: "imgs/ep.jpg",
+    music: "gpn.mp3",
+    opts: {
+      role: [],
+      series: ["XC1"],
+    }
+  }
+]
 
 dataSet[dataSetVersion].characterData = [
   // Xenogears

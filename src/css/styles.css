@@ -3,6 +3,11 @@ body {
   font-size: 16px;
 }
 
+.title {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
 .container {
   display: flex;
   flex-flow: column nowrap;
@@ -41,9 +46,8 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
   grid-gap: 5px;
-  width: 420px;
+  width: 585px;
 }
 
 .button {
@@ -111,17 +115,19 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
+  width: 240px;
+  height: 135px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
 .sorter > .text {
-  width: 120px;
-  height: 60px;
+  width: 240px;
+  height: 50px;
+  margin: auto;
   display: none;
+  grid-row: 7 / 7;
 }
 
 .sorter > .text > p {
@@ -140,6 +146,15 @@ body {
 .sorter > .right {
   grid-column: 3 / 4;
   border: 1px solid #000000;
+}
+
+.sorter > .audio {
+  width: 240px;
+  margin: auto;
+}
+
+audio {
+  width: 240px;
 }
 
 .options {
@@ -209,20 +224,9 @@ label:hover {
 
 .result {
   height: 15px;
-  margin-bottom: -1px;
-  display: grid;
-  width: 211px;
-  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1px;
   border: 1px solid #000;
   margin-right: 5px;
-}
-
-.result.image {
-  height: 175px;
-}
-
-.result.image img {
-  height: 160px;
 }
 
 .result.spacer {
@@ -236,29 +240,44 @@ label:hover {
 }
 
 .result > .left {
-  width: 35px;
-  padding: 1px 3px 1px 0.5em;
-  grid-column: 1 / 2;
-  text-align: right;
+  width: 30px;
+  height: 15px;
+  text-align: center;
+  border-right: 1px solid #000;
+  border-width: 1px;
+  float: left;
 }
 
 .result.image .left {
   position: relative;
+  height: 180px;
 }
 
 .result.image > .left span {
-  position: absolute;
+  position: relative;
   top: 50%;
-  right: 3px;
-  margin-top: -0.375em;
+}
+
+.result.image {
+  height: 180px;
+}
+
+.result.image img {
+  height: 160px;
+  margin-top: 1px;
+  margin-bottom: 3px;
 }
 
 .result > .right {
-  width: 160px;
-  padding: 1px 0em 1px 0em;
-  grid-column: 2 / 3;
-  border-left: 1px solid #000;
+  float: right;
   text-align: center;
+}
+
+.result > .right span {
+  position: relative;
+  top: 50%;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .info {

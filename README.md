@@ -52,6 +52,7 @@ This is a list of things you need to change for your sorter, for each file.
 
     * `name`: The name of the character to be displayed. **Required.**
     * `img`: An image filename of the character, in 120px x 180px, to be added to `imageRoot` in `data.js`. **Required.**
+    * `song`: A song filename of the character, in 120px x 180px, to be added to `imageRoot` in `data.js`. **Required.**
     * `opts`: An object of 'options' that will be used to filter out characters that will be used. Further explanation below. **Required.**
 
     Example:
