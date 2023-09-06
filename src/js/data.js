@@ -19,9 +19,8 @@ let dataSetVersion = '';
 
 /**
  * Image root, will be appended to the start of every image URL.
- * TODO MAKE THIS src/assets/imgs
  */
-const imageRoot = 'src/assets/';
+const imageRoot = 'src/assets/imgs/albums';
 
 /**
  * Image root, will be appended to the start of every image URL.
