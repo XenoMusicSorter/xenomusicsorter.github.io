@@ -106,15 +106,6 @@ function init() {
 
   document.querySelector('.image.selector').insertAdjacentElement('beforeend', document.createElement('select'));
 
-  /** Initialize random default images. */
-  const directoryPath = 'src/assets/defaults/'
-  // const pairs = 3
-  // const randomNum = Math.floor(Math.random() * pairs)
-
-  // document.querySelector('.left.sort.image').src = directoryPath + "noah.png";
-  // document.querySelector('.right.sort.image').src = directoryPath + "mio.png";
-
-
   /** Initialize image quantity selector for results. */
   for (let i = 0; i <= 100; i++) {
     const select = document.createElement('option');
@@ -302,19 +293,12 @@ function display() {
   }
 
   progressBar(`Battle No. ${battleNo}`, percent);
-
-  // document.querySelector('.left.sort.image').src = imageRoot + leftsong.img;
-  // document.querySelector('.right.sort.image').src = imageRoot + rightsong.img;
-
   
   document.querySelector('.left.sort.iframe').src = videoRoot + leftsong.url
   document.querySelector('.right.sort.iframe').src = videoRoot + rightsong.url
   
   document.querySelector('.left.sort.text').innerHTML = songNameDisp(leftsong.name, leftsong.wiki);
   document.querySelector('.right.sort.text').innerHTML = songNameDisp(rightsong.name, rightsong.wiki);
-
-  // document.querySelector('.left.sort.audio').innerHTML = songDisp(leftsong.music);
-  // document.querySelector('.right.sort.audio').innerHTML = songDisp(rightsong.music);
 
   /** Autopick if choice has been given. */
   if (choices.length !== battleNo - 1) {
@@ -499,12 +483,6 @@ function result(imageNum = 10) {
 
   const header = '<div class="result head"><div class="left"></div><div class="right">Name</div></div>';
   const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Do another sorter?</a>`;
-  // const imgRes = (song, num) => {
-  //   return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><img src="${imageRoot + song.img}"><div class="right"><span title="${song.name}">${song.name}</span></div></div></div>`;
-  // }
-  // const res = (song, num) => {
-  //   return `<div class="result"><div class="left"><span>${num}</span></div><img src="${song.img}" hidden><div class="right"><span>${song.name}</span></div></div>`;
-  // }
   const imgRes = (song, num) => {
     return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><iframe src="${videoRoot + song.url}"></iframe><div class="right"><span title="${song.name}">${song.name}</span></div></div></div>`;
   }
