@@ -23,6 +23,11 @@ let dataSetVersion = '';
 const imageRoot = 'src/assets/imgs/albums/';
 
 /**
- * Image root, will be appended to the start of every image URL.
+ * Song root, will be appended to the start of every song URL.
  */
 const songRoot = 'src/assets/songs/';
+
+/**
+ * Video root, will be appended to the start of every YouTube URL.
+ */
+const videoRoot = "https://www.youtube.com/embed/";

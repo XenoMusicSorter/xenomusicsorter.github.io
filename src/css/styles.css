@@ -47,7 +47,7 @@ body {
   margin: 0px auto;
   display: grid;
   grid-gap: 5px;
-  width: 585px;
+  width: 850px;
 }
 
 .button {
@@ -115,19 +115,19 @@ body {
 }
 
 .sorter > .image {
-  width: 240px;
+  width: 360px;
   height: 240px;
   margin: auto;
   grid-row: 1 / 7;
-  cursor: pointer;
 }
 
 .sorter > .text {
-  width: 240px;
+  width: 360px;
   height: 50px;
   margin: auto;
   display: none;
   grid-row: 7 / 7;
+  cursor: pointer;
 }
 
 .sorter > .text > p {
@@ -155,6 +155,13 @@ body {
 
 audio {
   width: 240px;
+}
+
+iframe {
+  width: 360px;
+  height: 240px;
+  margin: auto;
+  grid-row: 1 / 7;
 }
 
 .options {
@@ -250,7 +257,7 @@ label:hover {
 
 .result.image .left {
   position: relative;
-  height: 180px;
+  height: 260px;
 }
 
 .result.image > .left span {
@@ -259,11 +266,11 @@ label:hover {
 }
 
 .result.image {
-  height: 180px;
+  height: 260px;
 }
 
 .result.image img {
-  height: 160px;
+  height: 60px;
   margin-top: 1px;
   margin-bottom: 3px;
 }
