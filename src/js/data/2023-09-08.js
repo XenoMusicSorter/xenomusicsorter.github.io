@@ -29,7 +29,7 @@ dataSet[dataSetVersion].options = [
       { name: "Narita", key: "narita" },
       { name: "Kiyota", key: "kiyota" },
       { name: "Hiramatsu", key: "hiramatsu" },
-      { name: "ACE+", key: "ace" },
+      { name: "ACE", key: "ace" },
       { name: "Kameoka", key: "kameoka" },
       { name: "Yoshimura", key: "yoshimura" },
       { name: "Sawano", key: "sawano" },
@@ -51,6 +51,7 @@ dataSet[dataSetVersion].options = [
       { name: "Xenosaga Episode 2", key: "XS2" },
       { name: "Xenosaga Episode 3", key: "XS3" },
       { name: "Xenoblade Chronicles", key: "XC1" },
+      { name: "Xenoblade Chronicles: Definitive Edition", key: "XCDE" },
       { name: "Future Connected", key: "FC" },
       { name: "Xenoblade Chronicles X", key: "XCX" },
       { name: "Xenoblade Chronicles 2", key: "XC2" },
@@ -1602,14 +1603,14 @@ dataSet[dataSetVersion].songData = [
       games: ["XS3"],
     }
   },
-  // Xenoblade Chronicles: Definitive Edition
+  // Xenoblade Chronicles
   {
     name: "Main Theme",
     url: "YMT96_pvNQM?si=c2kQdAa9IUkO4py5",
     opts: {
       role: ["title"],
       composers: ["shimomura", "narita"],
-      games: ["XC1"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -1618,7 +1619,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "narita"],
-      games: ["XC1"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -1627,7 +1628,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "narita"],
-      games: ["XC1"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -1636,48 +1637,48 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      games: ["XC1"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
     name: "Colony 9",
-    url: "5Tb03K_Hiuc?si=ODsW0s-p5ahhwN-l",
+    url: "s-PCyuYJpNo?si=1ylEGjIBHsw0wH5B",
     opts: {
       role: ["area", "day"],
       composers: ["shimomura", "narita"],
-      games: ["XC1", "FR"],
+      games: ["XC1"],
     }
   },
   {
     name: "Colony 9/Night",
-    url: "iCJIT1hAL3Y?si=jP6VyQ963At8UKyG",
+    url: "HqR1cu_qXW0?si=ISu_BYq2UkrIuM0N",
     opts: {
       role: ["area", "night"],
       composers: ["shimomura", "hiramatsu"],
-      games: ["XC1", "FR"],
+      games: ["XC1"],
     }
   },
   {
     name: "Time to Fight!",
-    url: "jnp903OCp5M?si=ImSskvHIY0iPGnMe",
+    url: "OzeSfV6AeVo?si=cmWXMPc2v3q46_Vd",
     opts: {
       role: ["battle"],
       composers: ["shimomura", "narita"],
-      games: ["XC1", "FR"],
+      games: ["XC1"],
     }
   },
   {
     name: "Enemies Closing In",
-    url: "2y1Am90NO1w?si=4Kapi2fc8JIbq5j_",
+    url: "zyZmP8GVEv0?si=icgwPJzDrRu2bRHa",
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      games: ["XC1", "FC"],
+      games: ["XC1"],
     }
   },
   {
     name: "Hometown",
-    url: "fQQOaQw5gmI?si=WQCCluFLrI1x1b7q",
+    url: "5uRp5wut5k8?si=IPaUaJSqiB32B9hi",
     opts: {
       role: ["area", "day"],
       composers: ["shimomura", "narita"],
@@ -1686,7 +1687,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Hometown/Night",
-    url: "chxvqrhJ9qM?si=FHZDlQrvY0PiyQzJ",
+    url: "GCy0yya19C8?si=pZHyglT1WzMMNDyu",
     opts: {
       role: ["area", "night"],
       composers: ["shimomura", "ace"],
@@ -1699,7 +1700,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      games: ["XC1", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1708,12 +1709,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      games: ["XC1", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Tephra Cave",
-    url: "wx0-S_NzAJk?si=J6kY7nxnIvr8XhzG",
+    url: "0kTKFLCBN4E?si=mTxzWvoBpNIC51dx",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -1722,7 +1723,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Hostile Gazes",
-    url: "PiF2REi1xDY?si=_h6kwfvnZgzCa4rP",
+    url: "rhYTpNXREug?si=zsUyl6IEsrnvkqNR",
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
@@ -1735,12 +1736,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      games: ["XC1", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "An Obstacle in Our Path",
-    url: "IpYw-RGVRcE?si=FobPt6Bm95hOgiyC",
+    url: "uLB-QtVBAVk?si=xSJLc7eT2dLUgvPT",
     opts: {
       role: ["battle"],
       composers: ["ace"],
@@ -1749,11 +1750,11 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Engage the Enemy",
-    url: "H75ElylmagM?si=tnhP9Dsy4KNNpVqe",
+    url: "SKW5tITC78E?si=I9mXW0gtn2V9iUUv",
     opts: {
       role: [],
       composers: ["ace", "hiramatsu"],
-      games: ["XC1", "FC"],
+      games: ["XC1"],
     }
   },
   {
@@ -1762,7 +1763,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      games: ["XC1", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1771,7 +1772,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      games: ["XC1", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1780,7 +1781,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      games: ["XC1", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1789,7 +1790,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      games: ["XC1"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -1798,7 +1799,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1807,12 +1808,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Visions of the Future",
-    url: "Mjuua9190R4?si=ETTv4VmQxJ8Y7XFP",
+    url: "wAlVh_-g5nI?si=d6QEyuHCUdcZe0TI",
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
@@ -1825,12 +1826,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Gaur Plain",
-    url: "NAHW_hPS5vE?si=Gkp7Bq3BXyzlMz3f",
+    url: "793tSRoCB1w?si=3gASAhMtochvdEg1",
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
@@ -1839,7 +1840,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Gaur Plain/Night",
-    url: "t68uY_zef7I?si=os8RuNl7TohNBfbp",
+    url: "qbt4CM80LVA?si=3YwlkR-1lgMaBPPa",
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
@@ -1848,7 +1849,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "In the Refugee Camp",
-    url: "Xx96QODHXkw?si=lvr6lGER5yKCA5oL",
+    url: "HIzEvsseX78?si=qs0AeiFjTTm4RPsl",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -1861,12 +1862,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Colony 6 - Ether Mine",
-    url: "0mqnWMVOPvE?si=xZojghalLLkUnOTO",
+    url: "_QH6iC6zFBg?si=E5TTbIRqPsSdOBF-",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -1879,12 +1880,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "narita"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
     name: "Colony 6 - Silence",
-    url: "X7DWo5PXq3c?si=Zjubj8wQlDvQa0sz",
+    url: "MhtBoilqQJw?si=xkTqJ1wQ8-5zRZto",
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace"],
@@ -1893,7 +1894,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Colony 6 - Rebuilding",
-    url: "y5Pcss6WW4Q?si=2NcyjoNMATpRcWWq",
+    url: "ZO-arqt-gO4?si=9tFEGqXVfa1C7Acj",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -1902,7 +1903,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Colony 6 - Hope",
-    url: "vOfsy8Sk380?si=APano_LF1jnkiFma",
+    url: "6EJH7Z4FnDQ?si=dBdn5xzoOlwStvm9",
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace"],
@@ -1911,7 +1912,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Colony 6 - Future",
-    url: "kwU4fgh0nBc?si=RFmTWj1cbC-_tXNq",
+    url: "s9U-Xy98EVo?si=a6H2cbOM-IN2-hOB",
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace", "kameoka"],
@@ -1920,7 +1921,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Satorl Marsh",
-    url: "PDrKeBq9iR4?si=xB-CV1duzV6U1Cjd",
+    url: "v0Z0SytoLZw?si=kCkTMpOwdvkP1S1J",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -1929,7 +1930,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Satorl Marsh/Night",
-    url: "YLB_Lh7tNwY?si=T1mJggnHmU2L84df",
+    url: "Vb2lWQH03tI?si=sifzuK5c_GP80JyQ",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -1938,7 +1939,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Bionis' Interior/Carcass",
-    url: "JTKCN-TYKf0?si=GbbayAJ55Z2q0uAp",
+    url: "0DxGRDxf60E?si=VosYMgSX4RMgIU3r",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -1947,7 +1948,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Forest of the Nopon",
-    url: "QQpQ2lBLBSs?si=h9q_2qoim00MHQRK",
+    url: "MG8VF8qOvx4?si=U3qkOw-XHC2v7TvL",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -1956,7 +1957,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Forest of the Nopon/Night",
-    url: "0U42pjVjYkI?si=YpvTwDUWH76miCpM",
+    url: "zxdm-DznYk0?si=iZ-r9XZDA-hLX90u",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -1965,7 +1966,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Frontier Village",
-    url: "Vb9t5FRF85s?si=m9pr1Cgfi4sxRkOn",
+    url: "um26rHVRcvk?si=RlajSPrd6lKX0oyA",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -1974,7 +1975,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Frontier Village/Night",
-    url: "IRwBW5JVXCM?si=g8lupWB8gfgSPXXw",
+    url: "zxdm-DznYk0?si=6xeGMREcLZD7_NqH",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -1987,12 +1988,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Eryth Sea",
-    url: "HLaqqzZFaOk?si=Aw5ezwnolcQK9dhw",
+    url: "5s5dqyWtk8M?si=q4Y-J3XLvCHzNSlr",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -2001,7 +2002,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Eryth Sea/Night",
-    url: "Y4M6wHPP0pQ?si=zE1rfdLoMrJJkcLG",
+    url: "bvf8SrSKlss?si=IyglVDTOLRJ77XkJ",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -2010,7 +2011,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Alcamoth, Imperial Capital",
-    url: "NWaxuRhoWyI?si=ItPmaWg9oTrBAyEm",
+    url: "r7UZi2FEHiA?si=exk03AjZeB9xnI30",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -2019,7 +2020,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Alcamoth, Imperial Capital/Night",
-    url: "pd3LmW0wavo?si=b3szhz8sMsuyfQAH",
+    url: "o3AufToroRM?si=jnu5yS1rX8_omH8S",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -2032,12 +2033,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Where the Ancestors Sleep",
-    url: "jqtjhTVzUR0?si=4Upro9ruq9tcs_ZF",
+    url: "wLhyckK-D0s?si=11VUMW_-dU7rnsVc",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -2050,7 +2051,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2059,12 +2060,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
     name: "Prison Island",
-    url: "sk1eRnMKBZY?si=-z31Xnf7cT0HZ9DP",
+    url: "97ftgVuOTG0?si=0p49PL6FC3EDItys",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -2073,11 +2074,11 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "You Will Know Our Names",
-    url: "ba4hxsuQgdo?si=mt-TvgHbdI6-Kci5",
+    url: "RZ3ZC8eHpv8?si=kORADrxppvJTojsv",
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1", "FC", "XC2"],
+      soundtrack: ["XC1", "XC2"],
     }
   },
   {
@@ -2086,12 +2087,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Valak Mountain",
-    url: "VePcgXTMUP0?si=DTSk4b0AKNRt-7n2",
+    url: "lHsLEBwK7Gg?si=N9vxOv8-Tq-VUgtv",
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
@@ -2100,7 +2101,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Valak Mountain/Night",
-    url: "RroGfG1J_Hg?si=HxQPhuTZ-OulYgJU",
+    url: "KeIxYVKdgw8?si=1zJu_BS-DYdLnp2C",
     opts: {
       role: ["area", "night"],
       composers: ["shimomura"],
@@ -2109,7 +2110,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Sword Valley",
-    url: "ASvvOoZUBPI?si=j3PUyitzT9usoQGu",
+    url: "WEI4x4P2E-g?si=qqwYlt4s3sN2NqDs",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -2118,7 +2119,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Sword Valley/Night",
-    url: "_OgvP1itlU0?si=bDnoZ0iG-USxNojO",
+    url: "gpucWGsqp2E?si=jFc8Hl7_2nOjjkX_",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -2127,7 +2128,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Galahad Fortress",
-    url: "N3rKz-TW6l8?si=dDVzGkXrtUie8V7x",
+    url: "CqaKfHLYTKY?si=ldarj7Np7oCjng3v",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -2136,7 +2137,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Mechanical Rhythm",
-    url: "A_i9_TDeoPE?si=7UitjSoaMqcUy5Le",
+    url: "3nqHQoqXuTc?si=cN45RneLKI94fmG8",
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
@@ -2145,7 +2146,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Irregular Bound",
-    url: "euiC67mToaA?si=MeB7W8X6ibJclEVS",
+    url: "urdBJ3qBgcY?si=nQt5QcdP5NAxllBN",
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
@@ -2154,16 +2155,16 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "A Tragic Decision",
-    url: "RTwh6NeHRsY?si=y-SNogXXeiv4xZTC",
+    url: "uPEMyiraLu8?si=mizg28g9MNbX5fId",
     opts: {
       role: [],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1"],
     }
   },
   {
     name: "The Fallen Land",
-    url: "9AKLrerzzn0?si=t6B8qRRfctSCpf9m",
+    url: "MaNkZgdZlOM?si=2FzDNxnYzMHInn_Y",
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
@@ -2172,7 +2173,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "The Fallen Land/Night",
-    url: "4QPVPO8J-Vc?si=wI3P3psx7Sxlh6_F",
+    url: "OiyYaz1zUpw?si=o39oNpHKquOKDdle",
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
@@ -2185,7 +2186,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "ace"],
-      soundtrack: ["XC1", "FC", "XC3"],
+      soundtrack: ["XC1", "XCDE", "FC", "XC3"],
     }
   },
   {
@@ -2194,7 +2195,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2203,7 +2204,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2212,12 +2213,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Hidden Machina Village",
-    url: "q8GlUStp5R8?si=D8nZfKRxBESuFe2_",
+    url: "d3nuTYYeOuk?si=XR8GwnO9D6Uq-Ui_",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -2230,7 +2231,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2239,12 +2240,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
     name: "Mechonis Field",
-    url: "TJ2AVbOqfh4?si=u2k8PSH7XkpL9Y_-",
+    url: "rLaKBotgQVw?si=v9sVm7_YbgtViw5Q",
     opts: {
       role: ["area"],
       composers: ["ace", "hiramatsu"],
@@ -2257,7 +2258,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2266,12 +2267,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
     name: "Central Factory",
-    url: "nWBP57puwlk?si=_O9YcgiG3j49W_Ej",
+    url: "6MO_zkRneNM?si=fY7I-3YH15crdLsP",
     opts: {
       role: ["area"],
       composers: ["ace", "hiramatsu"],
@@ -2280,7 +2281,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Agniritha, Mechonis Capital",
-    url: "MI5NnSwHtTI?si=-_60I-g4k3wrOhhv",
+    url: "4Fc1dwK-UxU?si=WPZurXHFNMkxgp0T",
     opts: {
       role: ["area", "day"],
       composers: ["ace", "hiramatsu"],
@@ -2289,7 +2290,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Agniritha, Mechonis Capital/Night",
-    url: "69b83F5TOXE?si=7TY-lXDouszsU-o4",
+    url: "l9ZGPBSKFJ4?si=LVX3wr4uD8AoUTYZ",
     opts: {
       role: ["area", "night"],
       composers: ["ace", "hiramatsu"],
@@ -2302,7 +2303,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
@@ -2311,7 +2312,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2320,7 +2321,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
@@ -2329,7 +2330,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
@@ -2338,12 +2339,12 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
     name: "Bionis Interior/Pulse",
-    url: "y_0KyJhqBl4?si=zxJhsgEvuBzar9PC",
+    url: "0GL1jR8QaVw?si=FU9jSG8AiOAADvnA",
     opts: {
       role: ["area"],
       composers: ["kiyota"],
@@ -2352,7 +2353,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "The End Lies Ahead",
-    url: "vLTay2Jsa1U?si=bv8-FwO8GB099iMi",
+    url: "gx47Z8-Yr0Q?si=PxtvXrJM6LCVLaXe",
     opts: {
       role: [],
       composers: ["ace", "hiramatsu"],
@@ -2361,7 +2362,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Memory's End",
-    url: "E7eHhT1Q6w8?si=OfaOBLnqiEqz-wTc",
+    url: "qVuESMSHPLQ?si=gN3RnX6KiYcoebai",
     opts: {
       role: [],
       composers: ["kiyota"],
@@ -2370,7 +2371,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Zanza's World",
-    url: "rE9pPnsB2EU?si=eb4d8BKw206PIuB1",
+    url: "lFsDhPCSnPU?si=bifSuNCXlLIWq4NB",
     opts: {
       role: [],
       composers: ["ace", "kameoka"],
@@ -2379,7 +2380,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "Zanza the Divine",
-    url: "MVHXjfk7H1k?si=dqrhqFE6DZvgpvpY",
+    url: "82_YJYYsa4U?si=L1DEFyvlvBg0II6p",
     opts: {
       role: ["battle", "boss"],
       composers: ["kiyota"],
@@ -2388,7 +2389,7 @@ dataSet[dataSetVersion].songData = [
   },
   {
     name: "The God-Slaying Sword",
-    url: "7aVDOVTS7VA?si=cGV874c5jFpmtGtv",
+    url: "5KoKbLRRlL8?si=qBcPgTnBnelmAgpQ",
     opts: {
       role: ["battle", "boss"],
       composers: ["ace"],
@@ -2401,7 +2402,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "FC"],
+      soundtrack: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2410,7 +2411,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
     }
   },
   {
@@ -2419,7 +2420,495 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "narita"],
-      soundtrack: ["XC1"],
+      soundtrack: ["XC1", "XCDE"],
+    }
+  },
+
+  // Xenoblade Chronicles: Definitive Edition
+  {
+    name: "Colony 9 (Definitive Edition ver.)",
+    url: "5Tb03K_Hiuc?si=ODsW0s-p5ahhwN-l",
+    opts: {
+      role: ["area", "day"],
+      composers: ["shimomura", "narita"],
+      games: ["XCDE", "FR"],
+    }
+  },
+  {
+    name: "Colony 9/Night (Definitive Edition ver.)",
+    url: "iCJIT1hAL3Y?si=jP6VyQ963At8UKyG",
+    opts: {
+      role: ["area", "night"],
+      composers: ["shimomura", "hiramatsu"],
+      games: ["XCDE", "FR"],
+    }
+  },
+  {
+    name: "Time to Fight! (Definitive Edition ver.)",
+    url: "jnp903OCp5M?si=ImSskvHIY0iPGnMe",
+    opts: {
+      role: ["battle"],
+      composers: ["shimomura", "narita"],
+      games: ["XCDE", "FR"],
+    }
+  },
+  {
+    name: "Enemies Closing In (Definitive Edition ver.)",
+    url: "2y1Am90NO1w?si=4Kapi2fc8JIbq5j_",
+    opts: {
+      role: ["battle"],
+      composers: ["ace", "hiramatsu"],
+      games: ["XCDE", "FC"],
+    }
+  },
+  {
+    name: "Hometown (Definitive Edition ver.)",
+    url: "fQQOaQw5gmI?si=WQCCluFLrI1x1b7q",
+    opts: {
+      role: ["area", "day"],
+      composers: ["shimomura", "narita"],
+      games: ["XCDE"],
+    }
+  },
+  {
+    name: "Hometown/Night (Definitive Edition ver.)",
+    url: "chxvqrhJ9qM?si=FHZDlQrvY0PiyQzJ",
+    opts: {
+      role: ["area", "night"],
+      composers: ["shimomura", "ace"],
+      games: ["XCDE"],
+    }
+  },
+  {
+    name: "Tephra Cave (Definitive Edition ver.)",
+    url: "wx0-S_NzAJk?si=J6kY7nxnIvr8XhzG",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      games: ["XCDE"],
+    }
+  },
+  {
+    name: "Hostile Gazes (Definitive Edition ver.)",
+    url: "PiF2REi1xDY?si=_h6kwfvnZgzCa4rP",
+    opts: {
+      role: ["battle"],
+      composers: ["ace", "hiramatsu"],
+      games: ["XCDE"],
+    }
+  },
+  {
+    name: "An Obstacle in Our Path (Definitive Edition ver.)",
+    url: "IpYw-RGVRcE?si=FobPt6Bm95hOgiyC",
+    opts: {
+      role: ["battle"],
+      composers: ["ace"],
+      games: ["XCDE"],
+    }
+  },
+  {
+    name: "Engage the Enemy (Definitive Edition ver.)",
+    url: "H75ElylmagM?si=tnhP9Dsy4KNNpVqe",
+    opts: {
+      role: [],
+      composers: ["ace", "hiramatsu"],
+      games: ["XCDE", "FC"],
+    }
+  },
+  {
+    name: "Visions of the Future (Definitive Edition ver.)",
+    url: "Mjuua9190R4?si=ETTv4VmQxJ8Y7XFP",
+    opts: {
+      role: ["battle"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Gaur Plain (Definitive Edition ver.)",
+    url: "NAHW_hPS5vE?si=Gkp7Bq3BXyzlMz3f",
+    opts: {
+      role: ["area", "day"],
+      composers: ["ace"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Gaur Plain/Night (Definitive Edition ver.)",
+    url: "t68uY_zef7I?si=os8RuNl7TohNBfbp",
+    opts: {
+      role: ["area", "day"],
+      composers: ["ace"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "In the Refugee Camp (Definitive Edition ver.)",
+    url: "Xx96QODHXkw?si=lvr6lGER5yKCA5oL",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Colony 6 - Ether Mine (Definitive Edition ver.)",
+    url: "0mqnWMVOPvE?si=xZojghalLLkUnOTO",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Colony 6 - Silence (Definitive Edition ver.)",
+    url: "X7DWo5PXq3c?si=Zjubj8wQlDvQa0sz",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota", "ace"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Colony 6 - Rebuilding (Definitive Edition ver.)",
+    url: "y5Pcss6WW4Q?si=2NcyjoNMATpRcWWq",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Colony 6 - Hope (Definitive Edition ver.)",
+    url: "vOfsy8Sk380?si=APano_LF1jnkiFma",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota", "ace"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Colony 6 - Future (Definitive Edition ver.)",
+    url: "kwU4fgh0nBc?si=RFmTWj1cbC-_tXNq",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota", "ace", "kameoka"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Satorl Marsh (Definitive Edition ver.)",
+    url: "PDrKeBq9iR4?si=xB-CV1duzV6U1Cjd",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Satorl Marsh/Night (Definitive Edition ver.)",
+    url: "YLB_Lh7tNwY?si=T1mJggnHmU2L84df",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Bionis' Interior/Carcass (Definitive Edition ver.)",
+    url: "JTKCN-TYKf0?si=GbbayAJ55Z2q0uAp",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Forest of the Nopon (Definitive Edition ver.)",
+    url: "QQpQ2lBLBSs?si=h9q_2qoim00MHQRK",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Forest of the Nopon/Night (Definitive Edition ver.)",
+    url: "0U42pjVjYkI?si=YpvTwDUWH76miCpM",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Frontier Village (Definitive Edition ver.)",
+    url: "Vb9t5FRF85s?si=m9pr1Cgfi4sxRkOn",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Frontier Village/Night (Definitive Edition ver.)",
+    url: "IRwBW5JVXCM?si=g8lupWB8gfgSPXXw",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Eryth Sea (Definitive Edition ver.)",
+    url: "HLaqqzZFaOk?si=Aw5ezwnolcQK9dhw",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Eryth Sea/Night (Definitive Edition ver.)",
+    url: "Y4M6wHPP0pQ?si=zE1rfdLoMrJJkcLG",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Alcamoth, Imperial Capital (Definitive Edition ver.)",
+    url: "NWaxuRhoWyI?si=ItPmaWg9oTrBAyEm",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Alcamoth, Imperial Capital/Night (Definitive Edition ver.)",
+    url: "pd3LmW0wavo?si=b3szhz8sMsuyfQAH",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Where the Ancestors Sleep (Definitive Edition ver.)",
+    url: "jqtjhTVzUR0?si=4Upro9ruq9tcs_ZF",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Prison Island (Definitive Edition ver.)",
+    url: "sk1eRnMKBZY?si=-z31Xnf7cT0HZ9DP",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "You Will Know Our Names (Definitive Edition ver.)",
+    url: "ba4hxsuQgdo?si=mt-TvgHbdI6-Kci5",
+    opts: {
+      role: ["battle"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE", "FC"],
+    }
+  },
+  {
+    name: "Valak Mountain (Definitive Edition ver.)",
+    url: "VePcgXTMUP0?si=DTSk4b0AKNRt-7n2",
+    opts: {
+      role: ["area", "day"],
+      composers: ["ace"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Valak Mountain/Night (Definitive Edition ver.)",
+    url: "RroGfG1J_Hg?si=HxQPhuTZ-OulYgJU",
+    opts: {
+      role: ["area", "night"],
+      composers: ["shimomura"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Sword Valley (Definitive Edition ver.)",
+    url: "ASvvOoZUBPI?si=j3PUyitzT9usoQGu",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Sword Valley/Night (Definitive Edition ver.)",
+    url: "_OgvP1itlU0?si=bDnoZ0iG-USxNojO",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Galahad Fortress (Definitive Edition ver.)",
+    url: "N3rKz-TW6l8?si=dDVzGkXrtUie8V7x",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Mechanical Rhythm (Definitive Edition ver.)",
+    url: "A_i9_TDeoPE?si=7UitjSoaMqcUy5Le",
+    opts: {
+      role: ["battle"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Irregular Bound (Definitive Edition ver.)",
+    url: "euiC67mToaA?si=MeB7W8X6ibJclEVS",
+    opts: {
+      role: ["battle"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "A Tragic Decision (Definitive Edition ver.)",
+    url: "RTwh6NeHRsY?si=y-SNogXXeiv4xZTC",
+    opts: {
+      role: [],
+      composers: ["ace", "kameoka"],
+      soundtrack: ["XCDE", "FC"],
+    }
+  },
+  {
+    name: "The Fallen Land (Definitive Edition ver.)",
+    url: "9AKLrerzzn0?si=t6B8qRRfctSCpf9m",
+    opts: {
+      role: ["area", "day"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "The Fallen Land/Night (Definitive Edition ver.)",
+    url: "4QPVPO8J-Vc?si=wI3P3psx7Sxlh6_F",
+    opts: {
+      role: ["area", "night"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Hidden Machina Village (Definitive Edition ver.)",
+    url: "q8GlUStp5R8?si=D8nZfKRxBESuFe2_",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Mechonis Field (Definitive Edition ver.)",
+    url: "TJ2AVbOqfh4?si=u2k8PSH7XkpL9Y_-",
+    opts: {
+      role: ["area"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Central Factory (Definitive Edition ver.)",
+    url: "nWBP57puwlk?si=_O9YcgiG3j49W_Ej",
+    opts: {
+      role: ["area"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Agniritha, Mechonis Capital (Definitive Edition ver.)",
+    url: "MI5NnSwHtTI?si=-_60I-g4k3wrOhhv",
+    opts: {
+      role: ["area", "day"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Agniritha, Mechonis Capital/Night (Definitive Edition ver.)",
+    url: "69b83F5TOXE?si=7TY-lXDouszsU-o4",
+    opts: {
+      role: ["area", "night"],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Bionis Interior/Pulse (Definitive Edition ver.)",
+    url: "y_0KyJhqBl4?si=zxJhsgEvuBzar9PC",
+    opts: {
+      role: ["area"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "The End Lies Ahead (Definitive Edition ver.)",
+    url: "vLTay2Jsa1U?si=bv8-FwO8GB099iMi",
+    opts: {
+      role: [],
+      composers: ["ace", "hiramatsu"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Memory's End (Definitive Edition ver.)",
+    url: "E7eHhT1Q6w8?si=OfaOBLnqiEqz-wTc",
+    opts: {
+      role: [],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Zanza's World (Definitive Edition ver.)",
+    url: "rE9pPnsB2EU?si=eb4d8BKw206PIuB1",
+    opts: {
+      role: [],
+      composers: ["ace", "kameoka"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "Zanza the Divine (Definitive Edition ver.)",
+    url: "MVHXjfk7H1k?si=dqrhqFE6DZvgpvpY",
+    opts: {
+      role: ["battle", "boss"],
+      composers: ["kiyota"],
+      soundtrack: ["XCDE"],
+    }
+  },
+  {
+    name: "The God-Slaying Sword (Definitive Edition ver.)",
+    url: "7aVDOVTS7VA?si=cGV874c5jFpmtGtv",
+    opts: {
+      role: ["battle", "boss"],
+      composers: ["ace"],
+      soundtrack: ["XCDE"],
     }
   },
   // Future Connected
