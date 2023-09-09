@@ -59,18 +59,18 @@ dataSet[dataSetVersion].options = [
       { name: "Future Redeemed", key: "FR"}
     ]
   },
-  {
-    name: "Restrict Spoilers",
-    key: "spoiler",
-    tooltip: "Check this to restrict spoilers.",
-    checked: false
-  },
-  {
-    name: "Restrict Duplicates",
-    key: "duplicate",
-    tooltip: "Check this to restrict duplicates.",
-    checked: false
-  }
+  // {
+  //   name: "Restrict Spoilers",
+  //   key: "spoiler",
+  //   tooltip: "Check this to restrict spoilers.",
+  //   checked: false
+  // },
+  // {
+  //   name: "Restrict Duplicates",
+  //   key: "duplicate",
+  //   tooltip: "Check this to restrict duplicates.",
+  //   checked: false
+  // }
 ];
 
 dataSet[dataSetVersion].songData = [
