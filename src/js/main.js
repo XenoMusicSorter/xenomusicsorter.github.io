@@ -107,11 +107,11 @@ function init() {
   document.querySelector('.image.selector').insertAdjacentElement('beforeend', document.createElement('select'));
 
   /** Initialize image quantity selector for results. */
-  for (let i = 0; i <= 100; i++) {
+  for (let i = 0; i <= 3; i++) {
     const select = document.createElement('option');
     select.value = i;
     select.text = i;
-    if (i === 10) { select.selected = 'selected'; }
+    if (i === 3) { select.selected = 'selected'; }
     document.querySelector('.image.selector > select').insertAdjacentElement('beforeend', select);
   }
 
@@ -469,9 +469,9 @@ function progressBar(indicator, percentage) {
 /**
  * Shows the result of the sorter.
  * 
- * @param {number} [imageNum=10] Number of images to display. Defaults to 10.
+ * @param {number} [imageNum=3] Number of images to display. Defaults to 3.
  */
-function result(imageNum = 10) {
+function result(imageNum = 3) {
   document.querySelectorAll('.finished.button').forEach(el => el.style.display = 'block');
   document.querySelector('.image.selector').style.display = 'block';
   document.querySelector('.time.taken').style.display = 'block';
@@ -486,8 +486,11 @@ function result(imageNum = 10) {
   const imgRes = (song, num) => {
     return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><iframe src="${videoRoot + song.url}"></iframe><div class="right"><span title="${song.name}">${song.name}</span></div></div></div>`;
   }
-  const res = (song, num) => {
+  const hiddenRes = (song, num) => {
     return `<div class="result"><div class="left"><span>${num}</span></div><iframe src="${videoRoot + song.url}" hidden></iframe><div class="right"><span>${song.name}</span></div></div>`;
+  }
+  const res = (song, num) => {
+    return `<div class="result"><div class="left"><span>${num}</span></div><div class="right"><span>${song.name}</span></div></div>`;
   }
 
   let rankNum       = 1;
@@ -504,11 +507,16 @@ function result(imageNum = 10) {
   songDataToSort.forEach((val, idx) => {
     const songIndex = finalSortedIndexes[idx];
     const song = songDataToSort[songIndex];
-    if (imageDisplay-- > 0) {
-      resultTable.insertAdjacentHTML('beforeend', imgRes(song, rankNum));
-    } else {
+    if (idx >= 3) {
       resultTable.insertAdjacentHTML('beforeend', res(song, rankNum));
+    } else {
+      if (imageDisplay-- > 0) {
+        resultTable.insertAdjacentHTML('beforeend', imgRes(song, rankNum));
+      } else {
+        resultTable.insertAdjacentHTML('beforeend', hiddenRes(song, rankNum));
+      }
     }
+    
     finalsongs.push({ rank: rankNum, name: song.name });
 
     if (idx < songDataToSort.length - 1) {
