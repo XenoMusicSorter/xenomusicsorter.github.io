@@ -18,9 +18,9 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter by Composers",
+    name: "Filter by Composers/Arrangers",
     key: "composers",
-    tooltip: "Check this to restrict to certain composers.",
+    tooltip: "Check this to restrict to certain composers or arrangers.",
     checked: false,
     sub: [
       { name: "Mitsuda", key: "mitsuda" },
