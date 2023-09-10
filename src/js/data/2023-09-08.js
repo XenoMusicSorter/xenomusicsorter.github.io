@@ -1799,7 +1799,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1808,7 +1808,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1817,7 +1817,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1826,7 +1826,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1835,7 +1835,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1844,7 +1844,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1853,7 +1853,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1862,7 +1862,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1871,7 +1871,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1880,7 +1880,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "narita"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -1889,7 +1889,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1898,7 +1898,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1907,7 +1907,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1916,7 +1916,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace", "kameoka"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1925,7 +1925,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1934,7 +1934,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1943,7 +1943,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1952,7 +1952,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1961,7 +1961,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1970,7 +1970,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1979,7 +1979,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -1988,7 +1988,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -1997,7 +1997,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2006,7 +2006,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2015,7 +2015,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2024,7 +2024,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2033,7 +2033,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2042,7 +2042,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2051,7 +2051,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2060,7 +2060,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2069,7 +2069,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2078,7 +2078,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1", "XC2"],
+      games: ["XC1", "XC2"],
     }
   },
   {
@@ -2087,7 +2087,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2096,7 +2096,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2105,7 +2105,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["shimomura"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2114,7 +2114,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2123,7 +2123,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2132,7 +2132,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2141,7 +2141,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2150,7 +2150,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2159,7 +2159,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2168,7 +2168,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2177,7 +2177,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2186,7 +2186,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "ace"],
-      soundtrack: ["XC1", "XCDE", "FC", "XC3"],
+      games: ["XC1", "XCDE", "FC", "XC3"],
     }
   },
   {
@@ -2195,7 +2195,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2204,7 +2204,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2213,7 +2213,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2222,7 +2222,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2231,7 +2231,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2240,7 +2240,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2249,7 +2249,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2258,7 +2258,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2267,7 +2267,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2276,7 +2276,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2285,7 +2285,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2294,7 +2294,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2303,7 +2303,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2312,7 +2312,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2321,7 +2321,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2330,7 +2330,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2339,7 +2339,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2348,7 +2348,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2357,7 +2357,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2366,7 +2366,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2375,7 +2375,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2384,7 +2384,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["kiyota"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2393,7 +2393,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["ace"],
-      soundtrack: ["XC1"],
+      games: ["XC1"],
     }
   },
   {
@@ -2402,7 +2402,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC1", "XCDE", "FC"],
+      games: ["XC1", "XCDE", "FC"],
     }
   },
   {
@@ -2411,7 +2411,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
   {
@@ -2420,10 +2420,9 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["shimomura", "narita"],
-      soundtrack: ["XC1", "XCDE"],
+      games: ["XC1", "XCDE"],
     }
   },
-
   // Xenoblade Chronicles: Definitive Edition
   {
     name: "Colony 9 (Definitive Edition ver.)",
@@ -2521,7 +2520,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2530,7 +2529,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2539,7 +2538,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2548,7 +2547,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2557,7 +2556,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2566,7 +2565,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2575,7 +2574,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2584,7 +2583,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2593,7 +2592,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota", "ace", "kameoka"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2602,7 +2601,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2611,7 +2610,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2620,7 +2619,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2629,7 +2628,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2638,7 +2637,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2647,7 +2646,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2656,7 +2655,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2665,7 +2664,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2674,7 +2673,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2683,7 +2682,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2692,7 +2691,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2701,7 +2700,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2710,7 +2709,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2719,7 +2718,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE", "FC"],
+      games: ["XCDE", "FC"],
     }
   },
   {
@@ -2728,7 +2727,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2737,7 +2736,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["shimomura"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2746,7 +2745,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2755,7 +2754,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2764,7 +2763,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2773,7 +2772,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2782,7 +2781,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2791,7 +2790,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XCDE", "FC"],
+      games: ["XCDE", "FC"],
     }
   },
   {
@@ -2800,7 +2799,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2809,7 +2808,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2818,7 +2817,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2827,7 +2826,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2836,7 +2835,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2845,7 +2844,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2854,7 +2853,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2863,7 +2862,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2872,7 +2871,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "hiramatsu"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2881,7 +2880,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2890,7 +2889,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2899,7 +2898,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["kiyota"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   {
@@ -2908,7 +2907,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["ace"],
-      soundtrack: ["XCDE"],
+      games: ["XCDE"],
     }
   },
   // Future Connected
@@ -2918,7 +2917,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   {
@@ -2927,7 +2926,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   {
@@ -2936,7 +2935,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   {
@@ -2945,7 +2944,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "yoshimura"],
-      soundtrack: ["FC", "FR"],
+      games: ["FC", "FR"],
     }
   },
   {
@@ -2954,7 +2953,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   {
@@ -2963,7 +2962,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   {
@@ -2972,7 +2971,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   {
@@ -2981,7 +2980,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["FC"],
+      games: ["FC"],
     }
   },
   // Xenoblade Chronicles X
@@ -2991,7 +2990,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3000,7 +2999,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3009,7 +3008,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3018,7 +3017,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3027,7 +3026,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3036,7 +3035,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3045,7 +3044,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3054,7 +3053,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3063,7 +3062,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["title"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3072,7 +3071,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3081,7 +3080,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3090,7 +3089,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3099,7 +3098,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3108,7 +3107,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3117,7 +3116,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3126,7 +3125,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3135,7 +3134,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3144,7 +3143,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3153,7 +3152,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX", "XC2"],
+      games: ["XCX", "XC2"],
     }
   },
   {
@@ -3162,7 +3161,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3171,7 +3170,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3180,7 +3179,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3189,7 +3188,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3198,7 +3197,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3207,7 +3206,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3216,7 +3215,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3225,7 +3224,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3234,7 +3233,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3243,7 +3242,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3252,7 +3251,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3261,7 +3260,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3270,7 +3269,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3279,7 +3278,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3288,7 +3287,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle", "boss"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3297,7 +3296,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3306,7 +3305,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3315,7 +3314,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3324,7 +3323,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3333,7 +3332,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3342,7 +3341,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3351,7 +3350,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3360,7 +3359,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3369,7 +3368,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3378,7 +3377,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3387,7 +3386,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3396,7 +3395,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3405,7 +3404,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "area"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3414,7 +3413,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3423,7 +3422,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3432,7 +3431,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3441,7 +3440,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3450,7 +3449,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3459,7 +3458,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3468,7 +3467,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   {
@@ -3477,7 +3476,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
-      soundtrack: ["XCX"],
+      games: ["XCX"],
     }
   },
   // Xenoblade Chronicles 2
@@ -3487,7 +3486,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3496,7 +3495,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3505,7 +3504,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3514,7 +3513,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3523,7 +3522,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3532,7 +3531,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3541,7 +3540,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3550,7 +3549,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3559,7 +3558,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3568,7 +3567,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2", "TGC", "XC3"],
+      games: ["XC2", "TGC", "XC3"],
     }
   },
   {
@@ -3577,7 +3576,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3586,7 +3585,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3595,7 +3594,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3604,7 +3603,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3613,7 +3612,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3622,7 +3621,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3631,7 +3630,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "XC3"],
+      games: ["XC2", "XC3"],
     }
   },
   {
@@ -3640,7 +3639,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3649,7 +3648,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3658,7 +3657,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3667,7 +3666,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3676,7 +3675,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3685,7 +3684,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3694,7 +3693,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3703,7 +3702,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3712,7 +3711,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3721,7 +3720,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3730,7 +3729,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3739,7 +3738,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["title"],
       composers: ["mitsuda"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3748,7 +3747,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3757,7 +3756,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3766,7 +3765,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3775,7 +3774,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3784,7 +3783,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3793,7 +3792,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3802,7 +3801,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3811,7 +3810,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3820,7 +3819,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3829,7 +3828,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3838,7 +3837,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3847,7 +3846,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3856,7 +3855,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3865,7 +3864,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3874,7 +3873,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3883,7 +3882,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3892,7 +3891,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3901,7 +3900,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3910,7 +3909,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3919,7 +3918,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3928,7 +3927,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3937,7 +3936,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3946,7 +3945,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3955,7 +3954,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -3964,7 +3963,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3973,7 +3972,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3982,7 +3981,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -3991,7 +3990,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4000,7 +3999,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4009,7 +4008,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC", "XC3"],
+      games: ["XC2", "TGC", "XC3"],
     }
   },
   {
@@ -4018,7 +4017,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4027,7 +4026,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4036,7 +4035,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4045,7 +4044,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4054,7 +4053,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4063,7 +4062,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "area", "day"],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4072,7 +4071,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "area", "night"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4081,7 +4080,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4090,7 +4089,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4099,7 +4098,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4108,7 +4107,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4117,7 +4116,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4126,7 +4125,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4135,7 +4134,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "area", "day"],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4144,7 +4143,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "area", "night"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4153,7 +4152,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4162,7 +4161,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4171,7 +4170,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4180,7 +4179,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4189,7 +4188,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4198,7 +4197,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4207,7 +4206,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4216,7 +4215,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4225,7 +4224,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4234,7 +4233,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4243,7 +4242,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4252,7 +4251,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4261,7 +4260,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "ace"],
-      soundtrack: ["XC2", "TGC", "XC3"],
+      games: ["XC2", "TGC", "XC3"],
     }
   },
   {
@@ -4270,7 +4269,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4279,7 +4278,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4288,7 +4287,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4297,7 +4296,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["mitsuda", "kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4306,7 +4305,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4315,7 +4314,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4324,7 +4323,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4333,7 +4332,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4342,7 +4341,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4351,7 +4350,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4360,7 +4359,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC2", "TGC"],
+      games: ["XC2", "TGC"],
     }
   },
   {
@@ -4369,7 +4368,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4378,7 +4377,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4387,7 +4386,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4396,7 +4395,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4405,7 +4404,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4414,7 +4413,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   {
@@ -4423,7 +4422,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["XC2"],
+      games: ["XC2"],
     }
   },
   // The Golden Country
@@ -4433,7 +4432,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["title"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4442,7 +4441,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4451,7 +4450,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4460,7 +4459,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4469,7 +4468,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4478,7 +4477,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4487,7 +4486,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4496,7 +4495,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4505,7 +4504,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4514,7 +4513,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   {
@@ -4523,7 +4522,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["TGC"],
+      games: ["TGC"],
     }
   },
   // Xenoblade Chronicles 3
@@ -4533,7 +4532,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["title"],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4542,7 +4541,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4551,7 +4550,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4560,7 +4559,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4569,7 +4568,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kunigo", "fujii"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4578,7 +4577,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4587,7 +4586,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4596,7 +4595,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4605,7 +4604,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4614,7 +4613,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4623,7 +4622,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4632,7 +4631,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4641,7 +4640,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4650,7 +4649,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4659,7 +4658,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4668,7 +4667,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4677,7 +4676,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4686,7 +4685,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4695,7 +4694,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4704,7 +4703,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4713,7 +4712,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4722,7 +4721,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4731,7 +4730,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4740,7 +4739,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4749,7 +4748,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4758,7 +4757,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4767,7 +4766,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4776,7 +4775,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4785,7 +4784,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4794,7 +4793,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4803,7 +4802,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "noguchi"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4812,7 +4811,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4821,7 +4820,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4830,7 +4829,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4839,7 +4838,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "yoshimura"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4848,7 +4847,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4857,7 +4856,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4866,7 +4865,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4875,7 +4874,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["abounnasr", "mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4884,7 +4883,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4893,7 +4892,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4902,7 +4901,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4911,7 +4910,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4920,7 +4919,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4929,7 +4928,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4938,7 +4937,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["abounnasr", "mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4947,7 +4946,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4956,7 +4955,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4965,7 +4964,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -4974,7 +4973,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4983,7 +4982,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -4992,7 +4991,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5001,7 +5000,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5010,7 +5009,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5019,7 +5018,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5028,7 +5027,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5037,7 +5036,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5046,7 +5045,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5055,7 +5054,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5064,7 +5063,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5073,7 +5072,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5082,7 +5081,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5091,7 +5090,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5100,7 +5099,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5109,7 +5108,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5118,7 +5117,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5127,7 +5126,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5136,7 +5135,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["abounnasr", "mitsuda"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5145,7 +5144,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5154,7 +5153,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5163,7 +5162,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["hiramatsu", "mitsuda"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5172,7 +5171,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["night"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5181,7 +5180,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5190,7 +5189,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5199,7 +5198,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5208,7 +5207,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5217,7 +5216,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5226,7 +5225,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5235,7 +5234,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5244,7 +5243,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota", "mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5253,7 +5252,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota", "mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5262,7 +5261,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["are"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5271,7 +5270,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5280,7 +5279,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5289,7 +5288,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5298,7 +5297,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5307,7 +5306,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5316,7 +5315,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5325,7 +5324,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5334,7 +5333,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5343,7 +5342,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5352,7 +5351,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5361,7 +5360,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5370,7 +5369,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5379,7 +5378,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace", "komeoka", "yagi"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5388,7 +5387,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5397,7 +5396,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5406,7 +5405,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5415,7 +5414,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5424,7 +5423,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5433,7 +5432,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5442,7 +5441,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5451,7 +5450,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5460,7 +5459,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5469,7 +5468,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5478,7 +5477,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5487,7 +5486,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5496,7 +5495,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5505,7 +5504,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["ace", "kameoka"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5514,7 +5513,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["kunigo", "fujii"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5523,7 +5522,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5532,7 +5531,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["ace", "yoshimura"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5541,7 +5540,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5550,7 +5549,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area"],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5559,7 +5558,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5568,7 +5567,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5577,7 +5576,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota", "mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5586,7 +5585,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota", "mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5595,7 +5594,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5604,7 +5603,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5613,7 +5612,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5622,7 +5621,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5631,7 +5630,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5640,7 +5639,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5649,7 +5648,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["kiyota"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5658,7 +5657,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["ace", "kameoka", "yagi"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   {
@@ -5667,7 +5666,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["XC3", "FR"],
+      games: ["XC3", "FR"],
     }
   },
   {
@@ -5676,7 +5675,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda"],
-      soundtrack: ["XC3"],
+      games: ["XC3"],
     }
   },
   // Future Redeemed
@@ -5686,7 +5685,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["title"],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5695,7 +5694,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle"],
       composers: ["hiramatsu"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5704,7 +5703,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["ace", "yoshimura"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5713,7 +5712,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["ace", "yoshimura"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5722,7 +5721,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["kiyota"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5731,7 +5730,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["kiyota"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5740,7 +5739,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["abounnasr"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5749,7 +5748,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["abounnasr"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5758,7 +5757,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "day"],
       composers: ["abounnasr"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5767,7 +5766,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["area", "night"],
       composers: ["abounnasr"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5776,7 +5775,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["kiyota"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5785,7 +5784,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["battle", "boss"],
       composers: ["kiyota"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5794,7 +5793,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: [],
       composers: ["mitsuda", "abounnasr"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
   {
@@ -5803,7 +5802,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["mitsuda"],
-      soundtrack: ["FR"],
+      games: ["FR"],
     }
   },
 ]
