@@ -3098,7 +3098,7 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal", "battle"],
       composers: ["sawano"],
-      games: ["XCX"],
+      games: ["XCX", "XC2"],
     }
   },
   {
