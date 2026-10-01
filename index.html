@@ -1,101 +1,113 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="og:site_name" content="Xeno Series Music Sorting">
-  <meta name="og:description" content="A simple website for sorting Xeno series music in a formatted list.">
-  <title>Xeno Series Music Sorting</title>
+    <meta charset="utf-8">
+    <meta name="og:site_name" content="Xeno Series Music Sorting">
+    <meta name="og:description" content="A simple website for sorting Xeno series music in a formatted list.">
+    <title>Xeno Series Music Sorting</title>
 
-  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
 
-  <script src="src/js/data.js"></script>
-  <script src="src/js/data/2023-09-08.js"></script>
+    <script src="src/js/data.js"></script>
+    <script src="src/js/data/2023-09-08.js"></script>
+    <script src="src/js/data/2026-09-30.js"></script>
 
-  <script src="src/js/html2canvas.min.js"></script>
-  <script src="src/js/lz-string.min.js"></script>
-  <script src="src/js/seedrandom.min.js"></script>
-  <script src="src/js/main.js"></script>
+    <script src="src/js/html2canvas.min.js"></script>
+    <script src="src/js/lz-string.min.js"></script>
+    <script src="src/js/seedrandom.min.js"></script>
+    <script src="src/js/main.js"></script>
 </head>
 
 <body>
-<div class="container">
-    <div class="title">Xeno Series Music Sorter</div>
+    <div class="container">
+        <div class="title">Xeno Series Music Sorter</div>
 
-    <div class="progress">
-        <span class="progressbattle"></span>
-        <div class="progressbar">
-            <div class="progressfill"><span class="progresstext"></span></div>
-        </div>
-    </div>
-
-    <div class="sorter">
-        <iframe class="left sort iframe"></iframe>
-
-        <div class="starting start button">Click to Start!</div>
-        <div class="starting load button">Load <span></span></div>
-
-        <div class="loading button"><div></div><span>Loading...</span></div>
-
-        <div class="sorting tie button">Tie</div>
-        <div class="sorting undo button">Undo</div>
-        <div class="sorting save button">Save Progress</div>
-
-        <div class="finished save button">Generate Result URL</div>
-        <div class="finished getimg button"><!-- Generate Image --></div>
-        <div class="finished list button">Generate Text List</div>
-
-        <iframe class="right sort iframe"></iframe>
-
-
-        <div class="left sort text"><p></p></div>
-        <div class="right sort text"><p></p></div>
-    </div>
-
-    <div class="options"></div>
-    <div class="image selector">Display Images on Result: </div>
-    <div class="time taken"></div>
-    <div class="results"></div>
-
-
-    <div class="info">
-        <button onclick="toggleButton()">NEWS (Last Updated: September 9th, 2023)</button>
-        <div class="news-container">
-            <div class="news" id="news">
-                <span class="last-updated">
-                    September 9th, 2023:
-                </span>
-                
-                <ul>
-                    <li>Site has been officially launched!</li>
-                </ul>
+        <div class="progress">
+            <span class="progressbattle"></span>
+            <div class="progressbar">
+                <div class="progressfill"><span class="progresstext"></span></div>
             </div>
         </div>
 
-        <br><br>
+        <div class="sorter">
+            <iframe class="left sort iframe"></iframe>
+
+            <div class="starting start button">Click to Start!</div>
+            <div class="starting load button">Load <span></span></div>
+
+            <div class="loading button"><div></div><span>Loading...</span></div>
+
+            <div class="sorting tie button">Tie</div>
+            <div class="sorting undo button">Undo</div>
+            <div class="sorting save button">Save Progress</div>
+
+            <div class="finished save button">Generate Result URL</div>
+            <div class="finished getimg button"><!-- Generate Image --></div>
+            <div class="finished list button">Generate Text List</div>
+
+            <iframe class="right sort iframe"></iframe>
+
+            <div class="left sort text"><p></p></div>
+            <div class="right sort text"><p></p></div>
+
+            <div class="left sort select"><p></p></div>
+            <div class="right sort select"><p></p></div>
+        </div>
+
+        <div class="options"></div>
+        <div class="image selector">Display Images on Result: </div>
+        <div class="time taken"></div>
+        <div class="results"></div>
 
 
-        <a href="https://github.com/reinasakuraba/xenosort/" target="_blank">Original by Reinasakuraba</a> | <a class="clearsave">Clear Save Data</a>
-        <br><br>
-        <p><a href="https://forms.gle/1HNfc3j8zrjKmRg47" target="_blank">Please leave feedback here!</a></p>
-        <p>You can contact me on Twitter at <a href="https://twitter.com/fourthstrongest" target="_blank">@FourthStrongest</a> or on Discord at FourthStrongest#1337</p>
-        <p>Special thanks to the Xeno music Discord server run by rtg142857! Without their help, a lot of this work would be a lot harder.</p>
-    
+        <div class="info">
+            <button onclick="toggleButton()">NEWS (Last Updated: September 9th, 2023)</button>
+            <div class="news-container">
+                <div class="news" id="news">
+                    <span class="last-updated">
+                        September 30th, 2026:
+                    </span>
+                    
+                    <ul>
+                        <li>Xenoblade Chronicles X: Definitive Edition music added</li>
+                        <li>Site UI updated to be a bit more functional</li>
+                    </ul>
 
-        <br><br>
+                    <span>
+                        September 9th, 2023:
+                    </span>
+                    
+                    <ul>
+                        <li>Site has been officially launched!</li>
+                    </ul>
+                </div>
+            </div>
 
-        <p>Sorter for Xeno series music. Pick your sources, and hit the Start button.</p>
-        <p><strong>Certain options have details that you can hover to read.</strong></p>
-        <p>Click on the music you like better from the two, or tie them if you like them equally or don't know them.</p>
-        <p>Depending on how many sources you pick, you'll get up to 200+ picks, so set aside a good few cups of tea for this.</p>
+            <br><br>
 
-        <br><br>
 
-        <p>Keyboard controls during sorting: H/LeftArrow (pick left) J/DownArrow (undo) K/UpArrow (tie) L/RightArrow (pick right) S (save progress).</p>
-        <p>Before sorting: S/Enter (start sorting) L (load progress).
-        <p>1/2/3 always correspond to the first/second/third buttons.</p>
+            <a href="https://github.com/reinasakuraba/xenosort/" target="_blank">Original by Reinasakuraba</a> | <a class="clearsave">Clear Save Data</a>
+            <br><br>
+            <p><a href="https://forms.gle/1HNfc3j8zrjKmRg47" target="_blank">Please leave feedback here!</a></p>
+            <p>You can contact me on Discord at FourthStrongest or by email at fourthstrongest@gmail.com</p>
+            <p>Special thanks to the Xeno music Discord server run by rtg142857! Without their help, a lot of this work would be a lot harder.</p>
+        
+
+            <br><br>
+
+            <p>Sorter for Xeno series music. Pick your sources, and hit the Start button.</p>
+            <p><strong>Certain options have details that you can hover to read.</strong></p>
+            <p>Click on the music you like better from the two, or tie them if you like them equally or don't know them.</p>
+            <p>Depending on how many sources you pick, you'll get up to 200+ picks, so set aside a good few cups of tea for this.</p>
+
+            <br><br>
+
+            <p>Keyboard controls during sorting: H/LeftArrow (pick left) J/DownArrow (undo) K/UpArrow (tie) L/RightArrow (pick right) S (save progress).</p>
+            <p>Before sorting: S/Enter (start sorting) L (load progress).
+            <p>1/2/3 always correspond to the first/second/third buttons.</p>
+        </div>
     </div>
-</div>
 </body>
 
 </html>

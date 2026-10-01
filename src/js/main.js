@@ -61,8 +61,8 @@ function init() {
   document.querySelector('.starting.start.button').addEventListener('click', start);
   document.querySelector('.starting.load.button').addEventListener('click', loadProgress);
 
-  document.querySelector('.left.sort.text').addEventListener('click', () => pick('left'));
-  document.querySelector('.right.sort.text').addEventListener('click', () => pick('right'));
+  document.querySelector('.left.sort.select').addEventListener('click', () => pick('left'));
+  document.querySelector('.right.sort.select').addEventListener('click', () => pick('right'));
   
   document.querySelector('.sorting.tie.button').addEventListener('click', () => pick('tie'));
   document.querySelector('.sorting.undo.button').addEventListener('click', undo);
@@ -258,6 +258,11 @@ function start() {
   leftInnerIndex  = 0;                        // Inner indexes, because we'll be comparing the left array
   rightInnerIndex = 0;                        // to the right array, in order to merge them into one sorted array.
 
+  document.querySelector('.left.sort.select').style.display = 'block';
+  document.querySelector('.right.sort.select').style.display = 'block';
+  document.querySelector('.left.sort.select').innerText = "Select";
+  document.querySelector('.right.sort.select').innerText = "Select";
+
   /** Disable all checkboxes and hide/show appropriate parts while we preload the images. */
   document.querySelectorAll('input[type=checkbox]').forEach(cb => cb.disabled = true);
   document.querySelectorAll('.starting.button').forEach(el => el.style.display = 'none');
@@ -282,11 +287,29 @@ function display() {
   const leftsong        = songDataToSort[leftSongIndex];
   const rightsong       = songDataToSort[rightSongIndex];
 
-  const songNameDisp = (name, wiki) => {
-    const songName = name; // reduceTextWidth(name, 'Arial 12.8px', 220);
-    const songTooltip = name !== songName ? name : '';
-    return `<p title="${songTooltip}">${songName}</p>`;
+  const songNameDisp = (song) => {
+    const songName = song.name; // reduceTextWidth(name, 'Arial 12.8px', 220);
+    const gameName = getGameName(song.opts.games[0]);
+    return `<a href="https://www.youtube.com/results?search_query=${gameName} ${songName}" target="_blank"><p title="${songName}">${songName}</p></a>`;
   };
+
+  const getGameName = (game) => {
+    switch (game) {
+      case "XG": return "Xenogears";
+      case "XS1": return "Xenosaga 1";
+      case "XS2": return "Xenosaga 2";
+      case "XS3": return "Xenosaga 3";
+      case "XB1": return "Xenoblade Wii";
+      case "XBDE": return "Xenoblade Definitive Edition";
+      case "FC": return "Xenoblade Future Connected";
+      case "XBX": return "Xenoblade X";
+      case "XB2": return "Xenoblade 2";
+      case "TGC": return "Xenoblade Torna";
+      case "XB3": return "Xenoblade 3";
+      case "FR": return "Xenoblade Future Redeemed";
+    }
+    return "";
+  }
 
   const songDisp = music => {
     return `<audio controls><source src="${songRoot + music}" type="audio/mpeg"></audio>`;
@@ -297,8 +320,8 @@ function display() {
   document.querySelector('.left.sort.iframe').src = videoRoot + leftsong.url
   document.querySelector('.right.sort.iframe').src = videoRoot + rightsong.url
   
-  document.querySelector('.left.sort.text').innerHTML = songNameDisp(leftsong.name, leftsong.wiki);
-  document.querySelector('.right.sort.text').innerHTML = songNameDisp(rightsong.name, rightsong.wiki);
+  document.querySelector('.left.sort.text').innerHTML = songNameDisp(leftsong);
+  document.querySelector('.right.sort.text').innerHTML = songNameDisp(rightsong);
 
   /** Autopick if choice has been given. */
   if (choices.length !== battleNo - 1) {
@@ -480,6 +503,8 @@ function result(imageNum = 3) {
   document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'none');
   document.querySelector('.options').style.display = 'none';
   document.querySelector('.info').style.display = 'none';
+  document.querySelector('.left.sort.select').style.display = 'none';
+  document.querySelector('.right.sort.select').style.display = 'none';
 
   const header = '<div class="result head"><div class="left"></div><div class="right">Name</div></div>';
   const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Do another sorter?</a>`;

@@ -191,6 +191,14 @@ label:hover {
   width: 100%;
 }
 
+.left.sort.select {
+  display: none;
+}
+
+.right.sort.select {
+  display: none;
+}
+
 .image.selector {
   margin-top: 0.5em;
   width: 500px;

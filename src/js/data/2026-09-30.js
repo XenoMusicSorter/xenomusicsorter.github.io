@@ -1,4 +1,4 @@
-dataSetVersion = "2023-09-08"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2026-09-30"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -37,7 +37,8 @@ dataSet[dataSetVersion].options = [
       { name: "Kunigo", key: "kunigo" },
       { name: "Fujii", key: "fujii" },
       { name: "Noguchi", key: "noguchi" },
-      { name: "Yagi", key: "yagi" }
+      { name: "Yagi", key: "yagi" },
+      { name: "Umase", key: "umase" }
     ]
   },
   {
@@ -3476,6 +3477,69 @@ dataSet[dataSetVersion].songData = [
     opts: {
       role: ["vocal"],
       composers: ["sawano"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "Don't Worry <2XDv>",
+    url: "kTVApkazkfU",
+    opts: {
+      role: ["vocal", "area"],
+      composers: ["sawano"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "The key we've lost <2XDv>",
+    url: "GPekBmCgQwg",
+    opts: {
+      role: ["vocal", "battle", "boss"],
+      composers: ["sawano"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "2XDLB",
+    url: "kl7x3eDr8HA",
+    opts: {
+      role: ["vocal", "battle", "boss"],
+      composers: ["sawano"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "2S-FIELD",
+    url: "rg9cU3yh2LQ",
+    opts: {
+      role: ["area", "day", "night"],
+      composers: ["umase"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "2D-BATTLE",
+    url: "xe7CqrMMfJ4",
+    opts: {
+      role: ["battle"],
+      composers: ["umase"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "2N-ERA",
+    url: "MSxvGTZG5g8",
+    opts: {
+      role: [""],
+      composers: ["umase"],
+      games: ["XBX"],
+    }
+  },
+  {
+    name: "2D-TRAVELOGUE",
+    url: "iNhUs0uUDNg",
+    opts: {
+      role: [""],
+      composers: ["umase"],
       games: ["XBX"],
     }
   },
